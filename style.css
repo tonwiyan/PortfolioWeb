@@ -1,0 +1,23 @@
+body {
+    /* font-family: 'Yellowtail', cursive; */
+    font: arial;
+    font-size: 20px;
+}
+
+.highlight {
+    color: lightcoral;
+}
+
+.half_width img {
+    width: 80%;
+}
+
+img {
+    border-radius: 100%;
+}
+
+.half_width {
+    width: 40%;
+    float: left;
+    margin: 5%;
+}
