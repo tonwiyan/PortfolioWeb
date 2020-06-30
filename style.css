@@ -2,6 +2,7 @@ body {
     /* font-family: 'Yellowtail', cursive; */
     font: arial;
     font-size: 20px;
+    margin: 0px;
 }
 
 .highlight {
@@ -19,5 +20,47 @@ img {
 .half_width {
     width: 40%;
     float: left;
-    margin: 5%;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.top_container {
+    background-image: url("images/top-banner.png");
+    height: 500px;
+    background-repeat: no-repeat
+}
+
+.link_button {
+    text-decoration: none;
+    /* padding: 10px, 20px; */
+    color: white;
+    background: gray;
+    padding: 0.5em;
+    border-radius: 2px;
+    font-weight: 700px;
+}
+
+.dream_container {
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 500px;
+}
+
+.Experiences {
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 400px;
+}
+
+.box_shadow {
+    height: 250px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.footer {
+    text-align: center;
 }
